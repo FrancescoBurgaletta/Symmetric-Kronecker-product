@@ -10,4 +10,4 @@ The time complexity, however, is the same as the Kronecker product, because a sq
 
 Numerical error is also reduced, because the external $\frac{1}{2}$ factor and the $\frac{1}{\sqrt{2}}$ factor internal to the $Q$ matrix have been taken into account beforehand, saving avoidable additions and multiplications.
 
-Beware: the code has not been deeply tested, so further testing is needed.
+[!WARNING]The code has not been deeply tested, so further testing is needed.
