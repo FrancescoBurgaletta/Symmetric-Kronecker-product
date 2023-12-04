@@ -41,7 +41,7 @@ class SymmetricKronecker {
 
     			while (divT + 1 < m1.length) {
     				while (modT < m1.length) {
-    					product[rowQ][colT] = (m1[divQ][divT] * m2[modQ][divT] + m1[modQ][divT] * m2[divQ][divT] + m1[divQ][modT] * m2[modQ][modT] + m1[modQ][modT] * m2[divQ][modT]) * 0.5;
+    					product[rowQ][colT] = (m1[divQ][divT] * m2[modQ][modT] + m1[modQ][modT] * m2[divQ][divT] + m1[divQ][modT] * m2[modQ][divT] + m1[modQ][divT] * m2[divQ][modT]) * 0.5;
     					colT++;
     					modT++;
     				}
